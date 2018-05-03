@@ -1,0 +1,73 @@
+@import "variables";
+.parallax
+{
+	perspective: 100px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	.parallaxLayer
+	{
+		position: absolute;
+		width: 100%;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+	.parallaxLayer
+	{
+		img
+		{
+		 	margin: 0 auto;
+		    display: block;
+		    position: absolute;
+		    width: 2000px;
+		    bottom: 0;
+		    left: 50%;
+		    margin-left: -1000px;
+		}
+	}
+	.parallaxLayerCover
+	{
+		background: #101a31;
+		display: block;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		z-index: 2;
+	}
+	.parallaxLayer1
+	{
+	  	transform: translateZ(-300px) scale(4);
+	}
+	.parallaxLayer2
+	{
+	  	transform: translateZ(-250px) scale(3.5);
+	}
+	.parallaxLayer3
+	{
+	  	transform: translateZ(-200px) scale(3);
+	}
+	.parallaxLayer4
+	{
+	  	transform: translateZ(-150px) scale(2.5);
+	}
+	.parallaxLayer5
+	{
+	  	transform: translateZ(-100px) scale(2);
+	}
+	.parallaxLayer6
+	{
+	  	transform: translateZ(-50px) scale(1.5);
+	}
+	.parallaxLayer7
+	{
+	  	transform: translateZ(0px) scale(1);
+	}
+}
