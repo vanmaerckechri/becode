@@ -2,6 +2,47 @@
 @media only screen and (min-width: 768px)
 {
 }
-@media (max-width: 601px) and (orientation: portrait)
+@media (max-width: 930px) and (orientation: portrait)
 {
+}
+@media (max-width: 930px)
+{
+	#main
+	{
+		.mainContainer
+		{
+			.becodeDescription
+			{
+				p
+				{
+					font-size: 1.8rem;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 430px)
+{
+	#main
+	{
+		.mainContainer
+		{
+			.becodeDescription
+			{
+				p
+				{
+					font-size: 1.4rem;
+				}
+			}
+		}
+	}
+	.parallax
+	{
+		.parallaxLayer5
+		{
+		  	transform-origin: 50% 50%;
+		  	transform: translateZ(-100px) scale(.2);
+		  	animation: layer5Phone 3s infinite alternate-reverse;
+		}
+	}
 }

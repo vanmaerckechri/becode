@@ -1,10 +1,95 @@
 @import "variables";
-@keyframes animationName
+@keyframes layer7
 {
     from
     {
+    	transform: translateZ(0px) translateY(0) rotateZ(-1deg) scale(1, .6);
     }
     to
     {
+    	transform: translateZ(0px) translateY(5px) rotateZ(1deg) scale(1, 1);
+    }
+}
+
+@keyframes layer6
+{
+    from
+    {
+	  	transform: translateZ(-50px) translateY(0px) rotateZ(-1deg) scale(1, 1);
+    }
+    to
+    {
+    	transform: translateZ(-50px) translateY(px) rotateZ(2deg) scale(1, .6);
+    }
+}
+// baleine.
+@keyframes layer5
+{
+    from
+    {
+	  	transform: translateZ(-100px) translateY(-60px) rotateZ(1deg) scale(.3);
+    }
+    to
+    {
+    	transform: translateZ(-100px) translateY(-65px) rotateZ(3deg) scale(.3);
+    }
+}
+@keyframes layer5Phone
+{
+    from
+    {
+	  	transform: translateZ(-100px) translateY(-90px) rotateZ(1deg) scale(.2);
+    }
+    to
+    {
+    	transform: translateZ(-100px) translateY(-95px) rotateZ(3deg) scale(.2);
+    }
+}
+
+@keyframes layer4
+{
+    from
+    {
+	  	transform: translateZ(-150px) translateY(0px) rotateZ(-1deg) scale(2.5, 1.5);
+    }
+    to
+    {
+    	transform: translateZ(-150px) translateY(5px) rotateZ(1deg) scale(2.5, 2);
+    }
+}
+
+@keyframes layer3
+{
+    from
+    {
+	  	transform: translateZ(-200px) translateY(0px) rotateZ(-1deg) scale(3, 1);
+    }
+    to
+    {
+    	transform: translateZ(-200px) translateY(-5px) rotateZ(1deg) scale(3, 1.5);
+    }
+}
+
+@keyframes layer2
+{
+    from
+    {
+	  	transform: translateZ(-250px) translateY(0px) rotateZ(-1deg) scale(3.5, 1.5);
+    }
+    to
+    {
+    	transform: translateZ(-250px) translateY(5px) rotateZ(1deg) scale(3.5, 2);
+    }
+}
+
+@keyframes layer1
+{
+    from
+    {
+	  	transform: translateZ(-300px) translateY(px) rotateZ(-1deg) scale(4, 2);
+    }
+    to
+    {
+    	transform: translateZ(-300px) translateY(-5px) rotateZ(1deg) scale(4, 2.5);
     }
 }

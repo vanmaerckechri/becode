@@ -2,4 +2,26 @@
 #main
 {
 	max-width: 1900px;
+	.mainContainer
+	{
+		padding: 0 10px;
+		.becodeDescription
+		{
+			p
+			{
+				margin: 75px auto;
+				max-width: 1140px;
+				color: white;
+				text-align: center;
+				font-size: 2.2rem;
+			}
+			img
+			{
+				margin: 0 auto;
+				display: block;
+				max-width: 100%;
+				height: auto;
+			}
+		}
+	}
 }
