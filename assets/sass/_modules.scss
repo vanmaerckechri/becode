@@ -49,42 +49,42 @@
 	{
 	  	transform-origin: 50% 50%;
 	  	transform: translateZ(-300px) scale(4);
-	  	animation: layer2 4s infinite alternate-reverse;
+	  	animation: layer2 4s infinite alternate-reverse linear;
 	}
 	.parallaxLayer2
 	{
 	  	transform-origin: 50% 50%;
 	  	transform: translateZ(-250px) scale(3.5);
-	  	animation: layer2 4s infinite alternate-reverse;
+	  	animation: layer2 4s infinite alternate-reverse linear;
 	}
 	.parallaxLayer3
 	{
 		transform-origin: 50% 50%;
 	  	transform: translateZ(-200px) scale(3);
-	  	animation: layer3 4s infinite alternate-reverse;
+	  	animation: layer3 4s infinite alternate-reverse linear;
 	}
 	.parallaxLayer4
 	{
 	  	transform-origin: 50% 50%;
 	  	transform: translateZ(-150px) scale(2.5);
-	  	animation: layer4 3s infinite alternate-reverse;
+	  	animation: layer4 3s infinite alternate-reverse linear;
 	}
 	.parallaxLayer5
 	{
 	  	transform-origin: 50% 50%;
 	  	transform: translateZ(-100px) scale(.3);
-	  	animation: layer5 3s infinite alternate-reverse;
+	  	animation: layer5 3s infinite alternate-reverse linear;
 	}
 	.parallaxLayer6
 	{
 		transform-origin: 50% 50%;
 	  	transform: translateZ(-50px) scale(1);
-	  	animation: layer6 3s infinite alternate-reverse;
+	  	animation: layer6 3s infinite alternate-reverse linear;
 	}
 	.parallaxLayer7
 	{
 		transform-origin: 50% 50%;
-	  	transform: translateZ(0px) scale(1) ease-in;
-	  	animation: layer7 3s infinite alternate-reverse;
+	  	transform: translateZ(0px) scale(1);
+	  	animation: layer7 3s infinite alternate-reverse linear;
 	}
 }

@@ -93,31 +93,31 @@ p {
   .parallax .parallaxLayer1 {
     transform-origin: 50% 50%;
     transform: translateZ(-300px) scale(4);
-    animation: layer2 4s infinite alternate-reverse; }
+    animation: layer2 4s infinite alternate-reverse linear; }
   .parallax .parallaxLayer2 {
     transform-origin: 50% 50%;
     transform: translateZ(-250px) scale(3.5);
-    animation: layer2 4s infinite alternate-reverse; }
+    animation: layer2 4s infinite alternate-reverse linear; }
   .parallax .parallaxLayer3 {
     transform-origin: 50% 50%;
     transform: translateZ(-200px) scale(3);
-    animation: layer3 4s infinite alternate-reverse; }
+    animation: layer3 4s infinite alternate-reverse linear; }
   .parallax .parallaxLayer4 {
     transform-origin: 50% 50%;
     transform: translateZ(-150px) scale(2.5);
-    animation: layer4 3s infinite alternate-reverse; }
+    animation: layer4 3s infinite alternate-reverse linear; }
   .parallax .parallaxLayer5 {
     transform-origin: 50% 50%;
     transform: translateZ(-100px) scale(0.3);
-    animation: layer5 3s infinite alternate-reverse; }
+    animation: layer5 3s infinite alternate-reverse linear; }
   .parallax .parallaxLayer6 {
     transform-origin: 50% 50%;
     transform: translateZ(-50px) scale(1);
-    animation: layer6 3s infinite alternate-reverse; }
+    animation: layer6 3s infinite alternate-reverse linear; }
   .parallax .parallaxLayer7 {
     transform-origin: 50% 50%;
-    transform: translateZ(0px) scale(1) ease-in;
-    animation: layer7 3s infinite alternate-reverse; }
+    transform: translateZ(0px) scale(1);
+    animation: layer7 3s infinite alternate-reverse linear; }
 
 #main {
   max-width: 1900px; }
