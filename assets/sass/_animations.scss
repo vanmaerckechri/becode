@@ -82,39 +82,55 @@
 {
     0%
     {
-	  	transform: translateZ(-150px) translateX(0px) translateY(0px) rotateZ(-1deg) scale(2.5, 2.5);
+	  	transform: translateZ(-150px) translateX(0px) translateY(25px) rotateZ(0deg) scale(2.5, 2.5);
     }
     20%
     {
-        transform: translateZ(-150px) translateX(40px) translateY(0px) rotateZ(-1deg) scale(2.5, 2.5);
+        transform: translateZ(-150px) translateX(40px) translateY(25px) rotateZ(1deg) scale(2.5, 2.2);
     }    
     40%
     {
-        transform: translateZ(-150px) translateX(80px) translateY(0px) rotateZ(-1deg) scale(2.5, 2.5);
+        transform: translateZ(-150px) translateX(80px) translateY(25px) rotateZ(0deg) scale(2.5, 2.5);
     }    
     60%
     {
-        transform: translateZ(-150px) translateX(120px) translateY(0px) rotateZ(-1deg) scale(2.5, 2.5);
+        transform: translateZ(-150px) translateX(120px) translateY(25px) rotateZ(1deg) scale(2.5, 2.2);
     }    
     80%
     {
-        transform: translateZ(-150px) translateX(160px) translateY(0px) rotateZ(-1deg) scale(2.5, 2.5);
+        transform: translateZ(-150px) translateX(160px) translateY(25px) rotateZ(0deg) scale(2.5, 2.5);
     }
     100%
     {
-    	transform: translateZ(-150px) translateX(200px) translateY(5px) rotateZ(1deg) scale(2.5, 2.5);
+    	transform: translateZ(-150px) translateX(200px) translateY(25px) rotateZ(1deg) scale(2.5, 2.2);
     }
 }
 
 @keyframes layer3
 {
-    from
+    0%
     {
-	  	transform: translateZ(-200px) translateY(0px) rotateZ(1deg) scale(3, 2.7);
+	  	transform: translateZ(-200px) translateX(300px) translateY(0px) rotateZ(1deg) scale(3, 3);
     }
-    to
+    20%
     {
-    	transform: translateZ(-200px) translateY(-5px) rotateZ(-1deg) scale(3, 3);
+        transform: translateZ(-200px) translateX(250px) translateY(0px) rotateZ(-1deg) scale(3, 2.7);
+    }    
+    40%
+    {
+        transform: translateZ(-200px) translateX(200px) translateY(0px) rotateZ(1deg) scale(3, 3);
+    }    
+    60%
+    {
+        transform: translateZ(-200px) translateX(150px) translateY(0px) rotateZ(-1deg) scale(3, 2.7);
+    }
+    80%
+    {
+        transform: translateZ(-200px) translateX(100px) translateY(0px) rotateZ(1deg) scale(3, 3);
+    }
+    100%
+    {
+    	transform: translateZ(-200px) translateX(50px) translateY(-5px) rotateZ(-1deg) scale(3, 2.7);
     }
 }
 
@@ -134,10 +150,10 @@
 {
     from
     {
-	  	transform: translateZ(-300px) translateY(px) rotateZ(1deg) scale(4, 3.7);
+	  	transform: translateZ(-300px) translateY(0px) rotateZ(1deg) scale(4, 4);
     }
     to
     {
-    	transform: translateZ(-300px) translateY(-5px) rotateZ(-1deg) scale(4, 4);
+    	transform: translateZ(-300px) translateY(-5px) rotateZ(-1deg) scale(4, 3.7);
     }
 }

@@ -50,19 +50,19 @@
 	{
 	  	transform-origin: 50% 50%;
 	  	transform: translateZ(-300px) scale(4);
-	  	animation: layer2 3.5s infinite alternate-reverse linear;
+	  	animation: layer1 4s infinite alternate-reverse linear;
 	}
 	.parallaxLayer2
 	{
 	  	transform-origin: 50% 50%;
 	  	transform: translateZ(-250px) scale(3.5);
-	  	animation: layer2 3s infinite alternate-reverse linear;
+	  	animation: layer2 4s infinite alternate-reverse linear;
 	}
 	.parallaxLayer3
 	{
 		transform-origin: 50% 50%;
-	  	transform: translateZ(-200px) scale(3);
-	  	animation: layer3 2.5s infinite alternate-reverse linear;
+	  	transform: translateZ(-200px) translateX(50px) translateY(0px) rotateZ(1deg) scale(3, 3);
+	  	animation: layer3 25s infinite alternate-reverse linear;
 	}
 	.parallaxLayer4
 	{
