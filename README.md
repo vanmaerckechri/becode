@@ -101,10 +101,6 @@ Réalisé durant la formation [Becode](http://www.becode.org/).
           bottom: 0;
           left: 0;
           transition: all .5s;
-      }
-
-      .parallaxLayer
-      {
           img
           {
               margin: 0 auto;
