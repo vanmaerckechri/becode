@@ -13,9 +13,9 @@ Réalisé durant la formation [Becode](http://www.becode.org/).
 **HTML**
 
 <div id="parallax" class="parallax">
-    <div class="parallaxLayer parallaxLayer1">
-        <img src="assets/img/layer1.svg" alt="">
-    </div>
+  <div class="parallaxLayer parallaxLayer1">
+    <img src="assets/img/layer1.svg" alt="">
+  </div>
     <div class="parallaxLayer parallaxLayer2">
         <img src="assets/img/layer2.svg" alt="">
     </div>
