@@ -9,15 +9,31 @@ html, body, header, nav, footer, section, div, span, h1, h2, h3, h4, p, a, block
   font-weight: normal; }
 
 @keyframes layer7 {
-  from {
-    transform: translateZ(0px) translateY(0px) translateY(0px) rotateZ(-1deg) scale(1, 0.8); }
-  to {
-    transform: translateZ(0px) translateY(0px) translateY(5px) rotateZ(1deg) scale(1, 1); } }
+  0% {
+    transform: translateZ(0px) translateX(0px) translateY(0px) rotateZ(1deg) scale(1, 1); }
+  20% {
+    transform: translateZ(0px) translateX(70px) translateY(5px) rotateZ(0deg) scale(1, 0.8); }
+  40% {
+    transform: translateZ(0px) translateX(140px) translateY(0px) rotateZ(1deg) scale(1, 1); }
+  60% {
+    transform: translateZ(0px) translateX(210px) translateY(5px) rotateZ(0deg) scale(1, 0.8); }
+  80% {
+    transform: translateZ(0px) translateX(280px) translateY(0px) rotateZ(1deg) scale(1, 1); }
+  100% {
+    transform: translateZ(0px) translateX(350px) translateY(5px) rotateZ(0deg) scale(1, 0.8); } }
 @keyframes layer6 {
-  from {
-    transform: translateZ(-50px) translateY(0px) rotateZ(-1deg) scale(1.5, 1.5); }
-  to {
-    transform: translateZ(-50px) translateY(5px) rotateZ(1deg) scale(1.5, 1.3); } }
+  0% {
+    transform: translateZ(-50px) translateX(0px) translateY(5px) rotateZ(0deg) scale(1.5, 1.3); }
+  20% {
+    transform: translateZ(-50px) translateX(60px) translateY(0px) rotateZ(1deg) scale(1.5, 1.5); }
+  40% {
+    transform: translateZ(-50px) translateX(120px) translateY(5px) rotateZ(0deg) scale(1.5, 1.3); }
+  60% {
+    transform: translateZ(-50px) translateX(180px) translateY(0px) rotateZ(1deg) scale(1.5, 1.5); }
+  80% {
+    transform: translateZ(-50px) translateX(240px) translateY(5px) rotateZ(0deg) scale(1.5, 1.3); }
+  100% {
+    transform: translateZ(-50px) translateX(300px) translateY(0px) rotateZ(1deg) scale(1.5, 1.5); } }
 @keyframes layer5 {
   from {
     transform: translateZ(-50px) translateY(0px) rotateZ(-1deg) scale(1.5); }
@@ -29,10 +45,18 @@ html, body, header, nav, footer, section, div, span, h1, h2, h3, h4, p, a, block
   to {
     transform: translateZ(-50px) translateY(5px) rotateZ(3deg) scale(0.8); } }
 @keyframes layer4 {
-  from {
-    transform: translateZ(-150px) translateY(0px) rotateZ(-1deg) scale(2.5, 2.3); }
-  to {
-    transform: translateZ(-150px) translateY(5px) rotateZ(1deg) scale(2.5, 2.5); } }
+  0% {
+    transform: translateZ(-150px) translateX(0px) translateY(0px) rotateZ(-1deg) scale(2.5, 2.5); }
+  20% {
+    transform: translateZ(-150px) translateX(40px) translateY(0px) rotateZ(-1deg) scale(2.5, 2.5); }
+  40% {
+    transform: translateZ(-150px) translateX(80px) translateY(0px) rotateZ(-1deg) scale(2.5, 2.5); }
+  60% {
+    transform: translateZ(-150px) translateX(120px) translateY(0px) rotateZ(-1deg) scale(2.5, 2.5); }
+  80% {
+    transform: translateZ(-150px) translateX(160px) translateY(0px) rotateZ(-1deg) scale(2.5, 2.5); }
+  100% {
+    transform: translateZ(-150px) translateX(200px) translateY(5px) rotateZ(1deg) scale(2.5, 2.5); } }
 @keyframes layer3 {
   from {
     transform: translateZ(-200px) translateY(0px) rotateZ(1deg) scale(3, 2.7); }
@@ -94,31 +118,31 @@ p {
   .parallax .parallaxLayer1 {
     transform-origin: 50% 50%;
     transform: translateZ(-300px) scale(4);
-    animation: layer2 5s infinite alternate-reverse linear; }
+    animation: layer2 3.5s infinite alternate-reverse linear; }
   .parallax .parallaxLayer2 {
     transform-origin: 50% 50%;
     transform: translateZ(-250px) scale(3.5);
-    animation: layer2 4.5s infinite alternate-reverse linear; }
+    animation: layer2 3s infinite alternate-reverse linear; }
   .parallax .parallaxLayer3 {
     transform-origin: 50% 50%;
     transform: translateZ(-200px) scale(3);
-    animation: layer3 4s infinite alternate-reverse linear; }
+    animation: layer3 2.5s infinite alternate-reverse linear; }
   .parallax .parallaxLayer4 {
     transform-origin: 50% 50%;
-    transform: translateZ(-150px) scale(2.5);
-    animation: layer4 3.5s infinite alternate-reverse linear; }
+    transform: translateZ(-150px) translateX(0px) translateY(0px) rotateZ(-1deg) scale(2.5, 2.5);
+    animation: layer4 25s infinite alternate-reverse linear; }
   .parallax .parallaxLayer5 {
     transform-origin: 50% 50%;
     transform: translateZ(-100px) scale(1.5);
     animation: layer5 3s infinite alternate-reverse linear; }
   .parallax .parallaxLayer6 {
     transform-origin: 50% 50%;
-    transform: translateZ(-50px) scale(1.5);
-    animation: layer6 3s infinite alternate-reverse linear; }
+    transform: translateZ(-50px) translateX(0px) translateY(0px) rotateZ(1deg) scale(1.5, 1.5);
+    animation: layer6 25s infinite alternate-reverse linear; }
   .parallax .parallaxLayer7 {
     transform-origin: 50% 50%;
-    transform: translateZ(0px) scale(1);
-    animation: layer7 2s infinite alternate-reverse linear; }
+    transform: translateZ(0px) translateX(0px) translateY(0px) rotateZ(1deg) scale(1, 1);
+    animation: layer7 25s infinite alternate-reverse linear; }
 
 #main {
   max-width: 1900px; }
