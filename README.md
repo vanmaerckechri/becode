@@ -2,7 +2,7 @@
   
 ## Les Consignes
 
-Produire un parallax à partir du gabarit réalisé par [Marina Shvanova](https://github.com/marinasvn) pour le site de Becode.
+Produire un parallax à partir du gabarit réalisé par [Marina Shvanova](https://github.com/marinasvn) pour le projet d'[Alixe Boumeridja](https://github.com/alixe82140).
   
 ## Contexte
 
