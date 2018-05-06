@@ -11,7 +11,7 @@ Réalisé durant la formation [Becode](http://www.becode.org/).
 ## Code pour le Parallax sans Javascript
 
 **HTML**
-
+```
   <div id="parallax" class="parallax">
       <div class="parallaxLayer parallaxLayer1">
           <img src="assets/img/layer1.svg" alt="">
@@ -45,9 +45,9 @@ Réalisé durant la formation [Becode](http://www.becode.org/).
           </div>
       </div>
   </div>
-
+```
 **SCSS**
-
+```
   #main
   {
       max-width: 1900px;
@@ -172,3 +172,4 @@ Réalisé durant la formation [Becode](http://www.becode.org/).
           transform: translateZ(0px) scale(1);
       }
   }
+```
