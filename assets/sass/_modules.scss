@@ -74,7 +74,7 @@
 	{
 	  	transform-origin: 50% 50%;
 	  	transform: translateZ(-100px) scale(1.5);
-	  	animation: layer5 3s infinite alternate-reverse linear;
+	  	animation: layer5 3s infinite alternate-reverse ease-in;
 	}
 	.parallaxLayer6
 	{
@@ -84,7 +84,7 @@
 	}
 	.parallaxLayer7
 	{
-		transform-origin: 50% 50%;
+		transform-origin: 50% 40%;
     	transform: translateZ(0px) translateX(0px) translateY(0px) rotateZ(1deg) scale(1, 1);
 	  	animation: layer7 25s infinite alternate-reverse linear;
 	}
