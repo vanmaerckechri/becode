@@ -3,11 +3,11 @@
 {
     from
     {
-    	transform: translateZ(0px) translateY(0px) rotateZ(0deg) scale(1, 1);
+    	transform: translateZ(0px) translateY(0px) translateY(0px) rotateZ(-1deg) scale(1, .8);
     }
     to
     {
-    	transform: translateZ(0px) translateY(-5px) rotateZ(1deg) scale(1, .8);
+    	transform: translateZ(0px) translateY(0px) translateY(5px) rotateZ(1deg) scale(1, 1);
     }
 }
 
@@ -32,6 +32,17 @@
     to
     {
     	transform: translateZ(-50px) translateY(5px) rotateZ(3deg) scale(1.5);
+    }
+}
+@keyframes layer5Phone
+{
+    from
+    {
+        transform: translateZ(-50px) translateY(0px) rotateZ(-1deg) scale(.8);
+    }
+    to
+    {
+        transform: translateZ(-50px) translateY(5px) rotateZ(3deg) scale(.8);
     }
 }
 

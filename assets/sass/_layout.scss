@@ -7,6 +7,17 @@
 		padding: 0 10px;
 		.becodeDescription
 		{
+			.logoContainer
+			{
+				height: 25vh;
+				img
+				{
+					margin: 0 auto;
+					display: block;
+					max-width: 100%;
+					height: auto;
+				}
+			}
 			p
 			{
 				margin: 75px auto;
@@ -14,13 +25,6 @@
 				color: white;
 				text-align: center;
 				font-size: 2.2rem;
-			}
-			img
-			{
-				margin: 0 auto;
-				display: block;
-				max-width: 100%;
-				height: auto;
 			}
 		}
 	}

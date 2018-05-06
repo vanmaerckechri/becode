@@ -1,7 +1,8 @@
 @import "variables";
 .parallax
 {
-	perspective: 50px;
+	perspective: 100px;
+	perspective-origin: 50% 40%;
 	height: 100vh;
 	overflow-x: hidden;
 	overflow-y: auto;
@@ -16,7 +17,7 @@
 		width: 100%;
 		top: 0;
 		right: 0;
-		bottom: 15vh;
+		bottom: 0;
 		left: 0;
 		transition: all .5s;
 	}
@@ -49,13 +50,13 @@
 	{
 	  	transform-origin: 50% 50%;
 	  	transform: translateZ(-300px) scale(4);
-	  	animation: layer2 4s infinite alternate-reverse linear;
+	  	animation: layer2 5s infinite alternate-reverse linear;
 	}
 	.parallaxLayer2
 	{
 	  	transform-origin: 50% 50%;
 	  	transform: translateZ(-250px) scale(3.5);
-	  	animation: layer2 4s infinite alternate-reverse linear;
+	  	animation: layer2 4.5s infinite alternate-reverse linear;
 	}
 	.parallaxLayer3
 	{
@@ -67,12 +68,12 @@
 	{
 	  	transform-origin: 50% 50%;
 	  	transform: translateZ(-150px) scale(2.5);
-	  	animation: layer4 3s infinite alternate-reverse linear;
+	  	animation: layer4 3.5s infinite alternate-reverse linear;
 	}
 	.parallaxLayer5
 	{
 	  	transform-origin: 50% 50%;
-	  	transform: translateZ(-100px) scale(3);
+	  	transform: translateZ(-100px) scale(1.5);
 	  	animation: layer5 3s infinite alternate-reverse linear;
 	}
 	.parallaxLayer6
@@ -85,6 +86,6 @@
 	{
 		transform-origin: 50% 50%;
 	  	transform: translateZ(0px) scale(1);
-	  	animation: layer7 3s infinite alternate-reverse linear;
+	  	animation: layer7 2s infinite alternate-reverse linear;
 	}
 }

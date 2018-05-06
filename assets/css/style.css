@@ -10,9 +10,9 @@ html, body, header, nav, footer, section, div, span, h1, h2, h3, h4, p, a, block
 
 @keyframes layer7 {
   from {
-    transform: translateZ(0px) translateY(0px) rotateZ(0deg) scale(1, 1); }
+    transform: translateZ(0px) translateY(0px) translateY(0px) rotateZ(-1deg) scale(1, 0.8); }
   to {
-    transform: translateZ(0px) translateY(-5px) rotateZ(1deg) scale(1, 0.8); } }
+    transform: translateZ(0px) translateY(0px) translateY(5px) rotateZ(1deg) scale(1, 1); } }
 @keyframes layer6 {
   from {
     transform: translateZ(-50px) translateY(0px) rotateZ(-1deg) scale(1.5, 1.5); }
@@ -23,6 +23,11 @@ html, body, header, nav, footer, section, div, span, h1, h2, h3, h4, p, a, block
     transform: translateZ(-50px) translateY(0px) rotateZ(-1deg) scale(1.5); }
   to {
     transform: translateZ(-50px) translateY(5px) rotateZ(3deg) scale(1.5); } }
+@keyframes layer5Phone {
+  from {
+    transform: translateZ(-50px) translateY(0px) rotateZ(-1deg) scale(0.8); }
+  to {
+    transform: translateZ(-50px) translateY(5px) rotateZ(3deg) scale(0.8); } }
 @keyframes layer4 {
   from {
     transform: translateZ(-150px) translateY(0px) rotateZ(-1deg) scale(2.5, 2.3); }
@@ -50,7 +55,8 @@ p {
   font-family: 'Montserrat', sans-serif; }
 
 .parallax {
-  perspective: 50px;
+  perspective: 100px;
+  perspective-origin: 50% 40%;
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
@@ -64,7 +70,7 @@ p {
     width: 100%;
     top: 0;
     right: 0;
-    bottom: 15vh;
+    bottom: 0;
     left: 0;
     transition: all .5s; }
   .parallax .parallaxLayer img {
@@ -88,11 +94,11 @@ p {
   .parallax .parallaxLayer1 {
     transform-origin: 50% 50%;
     transform: translateZ(-300px) scale(4);
-    animation: layer2 4s infinite alternate-reverse linear; }
+    animation: layer2 5s infinite alternate-reverse linear; }
   .parallax .parallaxLayer2 {
     transform-origin: 50% 50%;
     transform: translateZ(-250px) scale(3.5);
-    animation: layer2 4s infinite alternate-reverse linear; }
+    animation: layer2 4.5s infinite alternate-reverse linear; }
   .parallax .parallaxLayer3 {
     transform-origin: 50% 50%;
     transform: translateZ(-200px) scale(3);
@@ -100,10 +106,10 @@ p {
   .parallax .parallaxLayer4 {
     transform-origin: 50% 50%;
     transform: translateZ(-150px) scale(2.5);
-    animation: layer4 3s infinite alternate-reverse linear; }
+    animation: layer4 3.5s infinite alternate-reverse linear; }
   .parallax .parallaxLayer5 {
     transform-origin: 50% 50%;
-    transform: translateZ(-100px) scale(3);
+    transform: translateZ(-100px) scale(1.5);
     animation: layer5 3s infinite alternate-reverse linear; }
   .parallax .parallaxLayer6 {
     transform-origin: 50% 50%;
@@ -112,29 +118,34 @@ p {
   .parallax .parallaxLayer7 {
     transform-origin: 50% 50%;
     transform: translateZ(0px) scale(1);
-    animation: layer7 3s infinite alternate-reverse linear; }
+    animation: layer7 2s infinite alternate-reverse linear; }
 
 #main {
   max-width: 1900px; }
   #main .mainContainer {
     padding: 0 10px; }
+    #main .mainContainer .becodeDescription .logoContainer {
+      height: 25vh; }
+      #main .mainContainer .becodeDescription .logoContainer img {
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+        height: auto; }
     #main .mainContainer .becodeDescription p {
       margin: 75px auto;
       max-width: 1140px;
       color: white;
       text-align: center;
       font-size: 2.2rem; }
-    #main .mainContainer .becodeDescription img {
-      margin: 0 auto;
-      display: block;
-      max-width: 100%;
-      height: auto; }
 
 @media (max-width: 930px) {
   #main .mainContainer .becodeDescription p {
     font-size: 1.8rem; } }
 @media (max-width: 430px) {
   #main .mainContainer .becodeDescription p {
-    font-size: 1.4rem; } }
+    font-size: 1.4rem; }
+
+  .parallax .parallaxLayer5 {
+    animation: layer5Phone 3s infinite alternate-reverse linear; } }
 
 /*# sourceMappingURL=style.css.map */
