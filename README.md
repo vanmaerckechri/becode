@@ -53,19 +53,19 @@ Réalisé durant la formation [Becode](http://www.becode.org/).
       max-width: 1900px;
       .mainContainer
       {
-        padding: 0 10px;
-        .becodeDescription
-        {
-            .logoContainer
-            {
-                height: 25vh;
-                .logo
-                {
-                    margin: 0 auto;
-                    display: block;
-                    max-width: 100%;
-                    height: auto;
-                }
+          padding: 0 10px;
+          .becodeDescription
+          {
+              .logoContainer
+              {
+                  height: 25vh;
+                  .logo
+                  {
+                      margin: 0 auto;
+                      display: block;
+                      max-width: 100%;
+                      height: auto;
+                  }
               }
               .content
               {
