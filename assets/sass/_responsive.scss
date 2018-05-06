@@ -36,13 +36,4 @@
 			}
 		}
 	}
-	.parallax
-	{
-		.parallaxLayer5
-		{
-		  	transform-origin: 50% 50%;
-		  	transform: translateZ(-100px) scale(.2);
-		  	animation: layer5Phone 3s infinite alternate-reverse;
-		}
-	}
 }
